@@ -1,0 +1,7 @@
+name: f1-explainer
+python_version: "3.10"
+gpu: true
+weights:
+  - adapter_model/adapter_model.safetensors
+  - adapter_model/adapter_config.json
+predict: predict.py:Predictor
